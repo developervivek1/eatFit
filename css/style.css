@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F6F7F9;
+}
+
+h1{
+    color: red;
+}
+
+.cupertino-pane-wrapper .move{
+    margin: 4px auto;
+    height: 5px;
+    background: var(--cupertino-pane-move-background, #c0c0c0);
+    width: 50px;
+    border-radius: 4px;
+}
+
+
+.backdrop{
+    background-color: transparent !important;
+    display: none !important;
+}
+.batsman{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: -1;
+}
+.wickets{
+    position: absolute;
+    right: 0px;
+    top: 152px;
+    z-index: -1;
+}
+.countdown{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-text .countdown{
+    z-index: 99;
+}
+.countdown div h4{
+    color: #EC1377;
+    font-weight: bold;
+}
+.main-text .title{
+    /* font-family: 'Gilroy'; */
+    font-weight: bold;
+    color: #052465;
+}
+
+.main-text p{
+    color: #00030A;
+}
+.leaderBoard{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leaderBoard h5{
+    color: #01030A;
+    font-size: 17px;
+}
+.leaderBoard input{
+    border: 0;
+    width: 33%;
+}
+.leaderBoard input[type="date"]:focus{
+    border: 0;
+    outline: 0;
+}
+
+.leaderBoard input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0px;
+    background: url('../img/date.svg') no-repeat;
+    cursor: pointer;
+    /* background-position: right;
+    background-size: auto;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    top: 2px;
+    width: auto; */
+}
+
+
+  
+  input::-webkit-datetime-edit {
+    position: relative;
+    left: 15px;
+  }
+  
+  input::-webkit-datetime-edit-fields-wrapper {
+    position: relative;
+    left: 15px;
+  }
+
+  .form-control.search{
+    height: 50px;
+    padding: 6px 12px 6px 45px;
+  }
+
+  .searchBtn{
+    position: absolute;
+    height: 50px;
+  }
+
+  .searchBtn:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .user-div{
+    border-radius: 10px;
+    box-shadow: 1px 2px 15px #00000042;
+  }
+
+  .user-list ol li{
+    color: #00030A;
+    
+  }
+
+  .user-list ol li .rupee{
+    color: #4C4E53;
+  }
+
+  .user-list{
+    height: 550px;
+    overflow-y: scroll;
+  }
+
+  .user-list .bgImg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_63052" data-name="Group 63052" transform="translate(-264 -285.952)">
+    <rect id="Rectangle_12051" data-name="Rectangle 12051" width="24" height="24" transform="translate(264 285.952)" fill="none"/>
+    <path id="Icon_awesome-calendar" data-name="Icon awesome-calendar" d="M.367,5.874H13.339a.368.368,0,0,1,.367.367V14.2a1.469,1.469,0,0,1-1.469,1.469H1.469A1.469,1.469,0,0,1,0,14.2V6.241A.368.368,0,0,1,.367,5.874ZM13.706,4.528v-1.1a1.469,1.469,0,0,0-1.469-1.469H10.769V.367A.368.368,0,0,0,10.4,0H9.178a.368.368,0,0,0-.367.367V1.958H4.9V.367A.368.368,0,0,0,4.528,0H3.3a.368.368,0,0,0-.367.367V1.958H1.469A1.469,1.469,0,0,0,0,3.427v1.1A.368.368,0,0,0,.367,4.9H13.339A.368.368,0,0,0,13.706,4.528Z" transform="translate(269.147 290.12)" fill="#9ca7bc"/>
+  </g>
+</svg>
