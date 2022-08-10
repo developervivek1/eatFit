@@ -7,7 +7,7 @@ window.onload = function () {
         buttonDestroy: false,
         backdrop: true,
         breaks: {
-            top:{ enabled: true, height: 680, bounce: true },
+            top:{ enabled: true, height: 670, bounce: true },
             middle: { enabled: true, height: 450, bounce: true },
             bottom: { enabled: true, height: 180 },
         },

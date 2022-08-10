@@ -8,10 +8,6 @@ body{
     background-color: #F6F7F9;
 }
 
-h1{
-    color: red;
-}
-
 .cupertino-pane-wrapper .move{
     margin: 4px auto;
     height: 5px;
@@ -53,6 +49,9 @@ h1{
     /* font-family: 'Gilroy'; */
     font-weight: bold;
     color: #052465;
+}
+.cupertino-pane.p-3{
+  overflow: hidden !important;
 }
 
 .main-text p{
@@ -137,7 +136,7 @@ h1{
   }
 
   .user-list{
-    height: 550px;
+    max-height: 415px;
     overflow-y: scroll;
   }
 
