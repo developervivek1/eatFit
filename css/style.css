@@ -69,8 +69,11 @@ h1{
     font-size: 17px;
 }
 .leaderBoard input{
-    border: 0;
-    width: 33%;
+  background: #F2F5F9;
+  padding: 6px;
+  border: 0;
+  width: 37%;
+  border-radius: 3px;
 }
 .leaderBoard input[type="date"]:focus{
     border: 0;
@@ -79,7 +82,7 @@ h1{
 
 .leaderBoard input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
-    top: 0px;
+    top: 5px;
     background: url('../img/date.svg') no-repeat;
     cursor: pointer;
     /* background-position: right;
@@ -92,8 +95,6 @@ h1{
     top: 2px;
     width: auto; */
 }
-
-
   
   input::-webkit-datetime-edit {
     position: relative;
@@ -145,4 +146,60 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+  }
+
+  .bottomNav{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 99;
+  }
+
+  .bottomNav button{
+    height: 65px;
+    width: 200px;
+    background-color: #EC1377;
+  }
+
+  .modal-body h5{
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: 100;
+  }
+  .modal-content{
+    border-radius: 20px;
+    margin: 10px;
+  }
+  .modal-body h5.active{
+    background-color: #052465;
+    color: #ffffff;
+    padding: 17px 20px;
+    font-weight: 400;
+    border-radius:7px;
+    display: inline-block;
+  }
+
+  .modal-footer .mdlBtn{
+    background-color: #EC1377;
+    height: 50px;
+    width: 200px;
+    color: #ffffff;
+  }
+
+
+  @media (min-width:800px){
+    .batsman{
+      left: 15%;
+    }
+    .wickets{
+      right: 18%;
+      top: 15px;
+    }
+    .countdown{
+      padding: 0 10rem;
+    }
+    .countdown div.text-right{
+      padding-right: 6rem;
+    }
+
   }
