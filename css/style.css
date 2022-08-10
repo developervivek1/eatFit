@@ -159,3 +159,21 @@ h1{
     width: 200px;
     background-color: #EC1377;
   }
+
+
+  @media (min-width:800px){
+    .batsman{
+      left: 15%;
+    }
+    .wickets{
+      right: 18%;
+      top: 15px;
+    }
+    .countdown{
+      padding: 0 10rem;
+    }
+    .countdown div.text-right{
+      padding-right: 6rem;
+    }
+
+  }
