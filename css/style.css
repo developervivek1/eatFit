@@ -160,6 +160,31 @@ h1{
     background-color: #EC1377;
   }
 
+  .modal-body h5{
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: 100;
+  }
+  .modal-content{
+    border-radius: 20px;
+    margin: 10px;
+  }
+  .modal-body h5.active{
+    background-color: #052465;
+    color: #ffffff;
+    padding: 17px 20px;
+    font-weight: 400;
+    border-radius:7px;
+    display: inline-block;
+  }
+
+  .modal-footer .mdlBtn{
+    background-color: #EC1377;
+    height: 50px;
+    width: 200px;
+    color: #ffffff;
+  }
+
 
   @media (min-width:800px){
     .batsman{
