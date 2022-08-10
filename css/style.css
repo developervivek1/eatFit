@@ -146,3 +146,15 @@ h1{
     left: 50%;
     transform: translate(-50%,-50%);
   }
+
+  .bottomNav{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 99;
+  }
+
+  .bottomNav button{
+    height: 50px;
+    background-color: #EC1377;
+  }
