@@ -69,8 +69,11 @@ h1{
     font-size: 17px;
 }
 .leaderBoard input{
-    border: 0;
-    width: 33%;
+  background: #F2F5F9;
+  padding: 6px;
+  border: 0;
+  width: 37%;
+  border-radius: 3px;
 }
 .leaderBoard input[type="date"]:focus{
     border: 0;
@@ -79,7 +82,7 @@ h1{
 
 .leaderBoard input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
-    top: 0px;
+    top: 5px;
     background: url('../img/date.svg') no-repeat;
     cursor: pointer;
     /* background-position: right;
