@@ -16,7 +16,7 @@ body{
     border-radius: 4px;
 }
 .pane{
-  transition:all !important;
+  transition:1ms !important;
 }
 
 
