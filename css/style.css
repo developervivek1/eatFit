@@ -15,6 +15,9 @@ body{
     width: 50px;
     border-radius: 4px;
 }
+.pane{
+  transition:none !important;
+}
 
 
 .backdrop{
@@ -141,6 +144,7 @@ body{
   }
 
   .user-list .bgImg{
+    z-index: -1;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -148,7 +152,7 @@ body{
   }
 
   .bottomNav{
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
     z-index: 99;
