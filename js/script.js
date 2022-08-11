@@ -9,7 +9,7 @@ window.onload = function () {
         breaks: {
             top:{ enabled: true, height: 670, bounce: false },
             middle: { enabled: true, height: 450, bounce: false },
-            bottom: { enabled: false, height: 180 },
+            bottom: { enabled: false, height: 450 },
         },
         // onDrag: () => console.log('Drag event'),
         onBackdropTap: () => {

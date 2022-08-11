@@ -15,9 +15,9 @@ body{
     width: 50px;
     border-radius: 4px;
 }
-.pane{
+/* .pane{
   transition:1ms !important;
-}
+} */
 
 
 .backdrop{
@@ -82,23 +82,21 @@ body{
     outline: 0;
 }
 
-.leaderBoard input[type="date"]::-webkit-calendar-picker-indicator {
+/* .leaderBoard input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     top: 5px;
     background: url('../img/date.svg') no-repeat;
     cursor: pointer;
-    /* background-position: right;
+    background-position: right;
     background-size: auto;
     cursor: pointer;
-    position: absolute;
+    
     bottom: 0;
-    left: 0;
-    right: 0px;
-    top: 2px;
-    width: auto; */
-}
+    left: 200px;
   
-  input::-webkit-datetime-edit {
+} */
+  
+  /* input::-webkit-datetime-edit {
     position: relative;
     left: 15px;
   }
@@ -106,7 +104,7 @@ body{
   input::-webkit-datetime-edit-fields-wrapper {
     position: relative;
     left: 15px;
-  }
+  } */
 
   .form-control.search{
     height: 50px;
