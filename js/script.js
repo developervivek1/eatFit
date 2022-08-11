@@ -18,7 +18,7 @@ window.onload = function () {
           myPane.backdrop({show: false});
         },
         onTransitionEnd: () => {
-          if (myPane.currentBreak() === 'bottom') {
+          if (myPane.currentBreak() === 'top') {
             myPane.backdrop({show: false});
           } else {
             myPane.backdrop({show: true});
