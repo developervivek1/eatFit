@@ -7,7 +7,8 @@ window.onload = function () {
         buttonDestroy: false,
         backdrop: false,
         // fitHeight:true,
-        freeMode:true,
+        // freeMode:true,
+        upperThanTop:true,
         fitScreenHeight:true,
         breaks: {
             top:{ enabled: true, height: 670, bounce: false },
