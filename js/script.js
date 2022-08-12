@@ -9,7 +9,8 @@ window.onload = function () {
         // fitHeight:true,
         // freeMode:true,
 
-        topperOverflow:true,
+        // topperOverflow:false,
+        clickBottomOpen:true,
         upperThanTop:true,
         fitScreenHeight:true,
         breaks: {
