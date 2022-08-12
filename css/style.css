@@ -58,9 +58,9 @@ body{
     font-weight: bold;
     color: #052465;
 }
-.cupertino-pane.p-3{
+/* .cupertino-pane.p-3{
   overflow: hidden !important;
-}
+} */
 
 .main-text p{
     color: #00030A;
