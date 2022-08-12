@@ -12,9 +12,9 @@ window.onload = function () {
         // fitHeight:true,
         touchMoveStopPropagation:true,
         topperOverflow:false,
-        clickBottomOpen:true,
+        // clickBottomOpen:true,
         upperThanTop:true,
-        fitScreenHeight:true,
+        // fitScreenHeight:true,
         breaks: {
             top:{ enabled: true, height: 670, bounce: false },
             middle: { enabled: true, height: 450, bounce: false },

@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: fredokaone; */
+    font-family: fredokaone;
 }
 
-/* @font-face {
+@font-face {
   font-family: fredokaone;
   src: url("../font/FredokaOne-Regular.ttf");
-} */
+}
 
 body{
     background-color: #F6F7F9;
