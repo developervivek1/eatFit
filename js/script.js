@@ -8,6 +8,8 @@ window.onload = function () {
         backdrop: false,
         // fitHeight:true,
         // freeMode:true,
+        // fitScreenHeight:true,
+        // fitHeight:true,
         touchMoveStopPropagation:true,
         topperOverflow:false,
         clickBottomOpen:true,
