@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: fredokaone;
+    /* font-family: fredokaone; */
 }
 
-@font-face {
+/* @font-face {
   font-family: fredokaone;
   src: url("../font/FredokaOne-Regular.ttf");
-}
+} */
 
 body{
     background-color: #F6F7F9;
@@ -142,7 +142,7 @@ body{
   }
 
   .user-list{
-    max-height: 415px;
+    max-height: 460px;
     overflow-y: scroll;
   }
 
@@ -162,8 +162,8 @@ body{
   }
 
   .bottomNav button{
-    height: 55px;
-    width: 200px;
+    height: 45px;
+    width: 185px;
     background-color: #EC1377;
   }
 
@@ -225,21 +225,54 @@ body{
   color: #ffffff;
   box-shadow: none;
 }
+
+.modal-body{
+  max-height: 300px;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 5px;
+ 
+}
+::-webkit-scrollbar-thumb {
+  background: #052465;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 50px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+}
 /* /////// */
 
   @media (min-width:800px){
     .batsman{
-      left: 15%;
+      left: 32%;
     }
     .wickets{
-      right: 18%;
-      top: 15px;
+      right: 33%;
+      top: 21%;
     }
     .countdown{
-      padding: 0 10rem;
+      padding: 0 20rem;
+    }
+    .countdown div.text-left{
+      position: absolute;
+      left: 32%;
     }
     .countdown div.text-right{
-      padding-right: 6rem;
+      position: absolute;
+    right: 33%;
     }
+    .leaderMain{
+      width: 35%;
+      margin: 5rem auto 0 auto;
+    }
+
+    /* .parentDiv{
+      width: 25%;
+    } */
 
   }
