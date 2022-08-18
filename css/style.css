@@ -22,14 +22,13 @@ body{
     border-radius: 4px;
 }
 
-.aeroIcon{
-  position: absolute;
-  left: 32%;
-}
-
 .backdrop{
     background-color: transparent !important;
     display: none !important;
+}
+.aeroIcon{
+  position: absolute;
+  left: 3%;
 }
 .batsman{
     position: absolute;
@@ -250,6 +249,10 @@ body{
 /* /////// */
 
   @media (min-width:800px){
+    .aeroIcon{
+      position: absolute;
+      left: 32%;
+    }
     .batsman{
       left: 32%;
     }
